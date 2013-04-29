@@ -1,0 +1,78 @@
+#navigation{
+	font-family: 'Average Sans', sans-serif;
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	background-color: whiteSmoke; 
+	width: 310px;
+}
+
+#scrollContainer{
+	overflow-x: scroll;
+	bottom: 0px;
+	position: absolute;
+	top: 110px;
+}
+
+#copy{
+	display: inline-block;
+	width: 100%;
+	margin: 0 -10px 8px -10px;
+	position: relative;
+	-webkit-transform: skewy(-3deg);
+	-webkit-backface-visibility: hidden;
+	-webkit-transition: 200ms all;
+	-moz-transform: skewy(-3deg);
+	-moz-backface-visibility: hidden;
+	-moz-transition: 200ms all;
+	-o-transform: skewy(-3deg);
+	-o-backface-visibility: hidden;
+	-o-transition: 200ms all;
+	-webkit-transform: skewy(-3deg);
+	-webkit-backface-visibility: hidden;
+	-webkit-transition: 200ms all;
+	cursor: pointer;
+}
+
+#copy span:hover{
+	color: #CC3F14;
+}
+
+#copy span{
+	font-weight: 800;
+	display: block;
+	padding: 8px 10px;
+	color: #333;
+	font-size: 35px;
+	text-align: center;
+	text-decoration: none;
+	position: relative;
+	z-index: 1;
+	text-shadow: 1px 1px 0px white, 
+	 2px 2px 0px #999,
+	 3px 3px 0px white;
+	-webkit-transition: 1s all;
+	-moz-transition: 1s all;
+	-o-transition: 1s all;
+	-webkit-transition: 1s all;
+	/*box-shadow: 0 0 0 1px rgba(0, 0, 0, .4) inset, 
+	 0 0 20px -5px rgba(0, 0, 0, .4),
+	 0 0 0px 3px white inset;*/
+}
+
+#navigation label{
+	display: block;
+}
+
+#navigation input[type="text"]{
+	display: block;
+	width: 99%;
+	height: 23px;
+	font-size: 12px;
+	padding-left: 2px;
+}
+
+input[type="submit"] {
+	width: 309px;
+}
